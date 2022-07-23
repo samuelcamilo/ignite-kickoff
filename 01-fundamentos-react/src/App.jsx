@@ -1,16 +1,11 @@
-import { Post } from "./Post";
+import { Header } from "./components/Header";
+import { Main } from "./components/Main";
 
 function App() {
   return (
     <>
-      <Post
-        author="Samuel Camilo"
-        content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, iure quis ex reprehenderit veniam provident earum hic ea dicta fuga odit sequi maxime aperiam, a itaque quam temporibus non rem!"
-      />
-      <Post
-        author="Beatriz Felix"
-        content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, iure quis ex reprehenderit veniam provident earum hic ea dicta fuga odit sequi maxime aperiam, a itaque quam temporibus non rem!"
-      />
+      <Header />
+      <Main />
     </>
   );
 }
